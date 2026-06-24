@@ -1,0 +1,12 @@
+node_modules/
+dist/
+frontend/dist/
+backend/target/
+backend/data/
+data/
+.m2/
+*.log
+.DS_Store
+.env
+backend/local.env
+backend/.env

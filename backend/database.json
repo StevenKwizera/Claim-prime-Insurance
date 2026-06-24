@@ -1,0 +1,1212 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Aline Mukamana",
+      "email": "claimant@prime.rw",
+      "password": "password",
+      "role": "claimant",
+      "region": "Kigali"
+    },
+    {
+      "id": "u-jean-c",
+      "name": "Jean Mukamana",
+      "email": "jean@prime.rw",
+      "password": "password",
+      "role": "claimant",
+      "region": "Kigali"
+    },
+    {
+      "id": "u2",
+      "name": "Jean Niyonzima",
+      "email": "agent@prime.rw",
+      "password": "password",
+      "role": "agent",
+      "region": "Southern"
+    },
+    {
+      "id": "u3",
+      "name": "Grace Uwase",
+      "email": "officer@prime.rw",
+      "password": "password",
+      "role": "officer",
+      "region": "Kigali"
+    },
+    {
+      "id": "u4",
+      "name": "David Habineza",
+      "email": "supervisor@prime.rw",
+      "password": "password",
+      "role": "supervisor",
+      "region": "Eastern"
+    },
+    {
+      "id": "u5",
+      "name": "Admin User",
+      "email": "admin@prime.rw",
+      "password": "password",
+      "role": "admin",
+      "region": "HQ"
+    },
+    {
+      "id": "u-admin-phoebe",
+      "name": "Phoebe Cyuzuzo",
+      "email": "cyuzuzophoebe@gmail.com",
+      "password": "password",
+      "role": "admin",
+      "region": "HQ"
+    },
+    {
+      "id": "u6",
+      "name": "Fabrice Iradukunda",
+      "email": "fraud@prime.rw",
+      "password": "password",
+      "role": "fraud-investigator",
+      "region": "HQ"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-24091",
+      "claimantName": "Aline Mukamana",
+      "policyNumber": "AUTO-44390",
+      "type": "auto",
+      "status": "Under Review",
+      "region": "Kigali",
+      "submittedAt": "2026-04-18T09:00:00Z",
+      "estimatedCompletion": "2026-04-30T17:00:00Z",
+      "riskScore": 26,
+      "amount": 0,
+      "aiSummary": "Police abstract matches vehicle registration. Dashcam and scene photos support liability.",
+      "assignedTeam": "Motor Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "d1",
+          "name": "Front bumper damage.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-04-18T09:15:00Z",
+          "aiStatus": "Valid",
+          "version": 2,
+          "previewUrl": "/evidence/auto-damage-front.jpg"
+        },
+        {
+          "id": "d1b",
+          "name": "Rear panel close-up.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-04-18T09:16:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-damage-side.jpg"
+        },
+        {
+          "id": "d1c",
+          "name": "License plate photo.jpg",
+          "kind": "image",
+          "tag": "vehicle",
+          "uploadedAt": "2026-04-18T09:17:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-license-plate.jpg"
+        },
+        {
+          "id": "d2",
+          "name": "Police Abstract.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-04-18T09:20:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "documentType": "Police abstract"
+        },
+        {
+          "id": "d3",
+          "name": "Garage repair estimate.pdf",
+          "kind": "pdf",
+          "tag": "cost",
+          "uploadedAt": "2026-04-19T12:20:00Z",
+          "aiStatus": "Flagged",
+          "version": 3
+        },
+        {
+          "id": "d3v",
+          "name": "Dashcam incident clip.mp4",
+          "kind": "video",
+          "tag": "video-evidence",
+          "uploadedAt": "2026-04-18T10:05:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "sizeBytes": 4200000,
+          "previewUrl": "/evidence/video-dashcam-drive.mp4"
+        },
+        {
+          "id": "d3w",
+          "name": "Witness statement.docx",
+          "kind": "document",
+          "tag": "witness",
+          "uploadedAt": "2026-04-19T08:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "documentType": "Witness statement"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "t1",
+          "label": "Claim submitted",
+          "at": "2026-04-18T09:00:00Z",
+          "actor": "Aline Mukamana",
+          "tone": "neutral"
+        },
+        {
+          "id": "t2",
+          "label": "Auto-routed to officer",
+          "at": "2026-04-18T09:08:00Z",
+          "actor": "System",
+          "tone": "success"
+        },
+        {
+          "id": "t3",
+          "label": "Video evidence uploaded",
+          "at": "2026-04-18T10:06:00Z",
+          "actor": "Aline Mukamana",
+          "tone": "success"
+        },
+        {
+          "id": "t4",
+          "label": "Receipt flagged for review",
+          "at": "2026-04-19T12:24:00Z",
+          "actor": "AI Verification",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24092",
+      "claimantName": "Eric Ndayisenga",
+      "policyNumber": "HLT-12900",
+      "type": "health",
+      "status": "Pending",
+      "region": "Northern",
+      "submittedAt": "2026-04-20T08:15:00Z",
+      "estimatedCompletion": "2026-05-02T17:00:00Z",
+      "riskScore": 11,
+      "amount": 0,
+      "aiSummary": "Medical note and lab results on file. Discharge summary and pharmacy invoice still expected.",
+      "assignedTeam": "Health Claims Unit",
+      "assignedOfficer": "Daniel Mugisha",
+      "documents": [
+        {
+          "id": "d4",
+          "name": "Hospital admission note.pdf",
+          "kind": "pdf",
+          "tag": "medical",
+          "uploadedAt": "2026-04-20T08:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "d4b",
+          "name": "Lab results printout.pdf",
+          "kind": "pdf",
+          "tag": "medical",
+          "uploadedAt": "2026-04-20T08:35:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "d4i",
+          "name": "Ward photo — patient ID.jpg",
+          "kind": "image",
+          "tag": "medical",
+          "uploadedAt": "2026-04-20T08:40:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/health-hospital-ward.jpg"
+        },
+        {
+          "id": "d4v",
+          "name": "Clinic walk-through.mp4",
+          "kind": "video",
+          "tag": "facility",
+          "uploadedAt": "2026-04-21T11:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-clinic-tour.mp4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "t4",
+          "label": "Claim started as draft",
+          "at": "2026-04-19T18:00:00Z",
+          "actor": "Eric Ndayisenga",
+          "tone": "neutral"
+        },
+        {
+          "id": "t5",
+          "label": "Submitted for review",
+          "at": "2026-04-20T08:15:00Z",
+          "actor": "Eric Ndayisenga",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24093",
+      "claimantName": "Claudine Nyiraneza",
+      "policyNumber": "PRP-55020",
+      "type": "property",
+      "status": "Investigation",
+      "region": "Western",
+      "submittedAt": "2026-04-10T07:45:00Z",
+      "estimatedCompletion": "2026-05-05T17:00:00Z",
+      "riskScore": 74,
+      "amount": 0,
+      "aiSummary": "Ownership deed flagged. Extensive photo and video evidence of flood damage under review.",
+      "assignedTeam": "Fraud Investigation Team",
+      "assignedOfficer": "Fabrice Iradukunda",
+      "documents": [
+        {
+          "id": "d5",
+          "name": "Ownership deed.pdf",
+          "kind": "pdf",
+          "tag": "legal",
+          "uploadedAt": "2026-04-10T08:00:00Z",
+          "aiStatus": "Flagged",
+          "version": 1
+        },
+        {
+          "id": "d6",
+          "name": "Living room flood damage.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-04-10T08:04:00Z",
+          "aiStatus": "Valid",
+          "version": 2,
+          "previewUrl": "/evidence/property-flood-living-room.jpg"
+        },
+        {
+          "id": "d6b",
+          "name": "Kitchen water line.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-04-10T08:05:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-water-damage.jpg"
+        },
+        {
+          "id": "d6c",
+          "name": "Roof leak interior.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-04-10T08:06:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-roof-leak.jpg"
+        },
+        {
+          "id": "d6v",
+          "name": "Property damage walkthrough.mp4",
+          "kind": "video",
+          "tag": "damage",
+          "uploadedAt": "2026-04-10T09:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-property-walkthrough.mp4"
+        },
+        {
+          "id": "d6r",
+          "name": "Contractor repair quote.pdf",
+          "kind": "pdf",
+          "tag": "cost",
+          "uploadedAt": "2026-04-11T14:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "d6x",
+          "name": "Insurance adjuster notes.xlsx",
+          "kind": "document",
+          "tag": "internal",
+          "uploadedAt": "2026-04-12T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "t6",
+          "label": "Manual escalation created",
+          "at": "2026-04-11T09:00:00Z",
+          "actor": "Grace Uwase",
+          "tone": "warning"
+        },
+        {
+          "id": "t7",
+          "label": "Fraud investigation opened",
+          "at": "2026-04-12T11:30:00Z",
+          "actor": "Supervisor",
+          "tone": "danger"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24101",
+      "claimantName": "Aline Mukamana",
+      "policyNumber": "HLT-88210",
+      "type": "health",
+      "status": "Approved",
+      "region": "Kigali",
+      "submittedAt": "2026-03-05T10:00:00Z",
+      "estimatedCompletion": "2026-03-20T17:00:00Z",
+      "riskScore": 8,
+      "amount": 0,
+      "aiSummary": "Outpatient visit fully documented. All invoices validated.",
+      "assignedTeam": "Health Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "h1",
+          "name": "Clinic invoice.pdf",
+          "kind": "pdf",
+          "tag": "billing",
+          "uploadedAt": "2026-03-05T10:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "h2",
+          "name": "Prescription scan.jpg",
+          "kind": "image",
+          "tag": "medical",
+          "uploadedAt": "2026-03-05T10:35:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/health-prescription.jpg"
+        },
+        {
+          "id": "h3",
+          "name": "Payment receipt.jpg",
+          "kind": "image",
+          "tag": "billing",
+          "uploadedAt": "2026-03-05T11:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/billing-receipt.jpg"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "h-t1",
+          "label": "Claim submitted",
+          "at": "2026-03-05T10:00:00Z",
+          "actor": "Aline Mukamana",
+          "tone": "neutral"
+        },
+        {
+          "id": "h-t2",
+          "label": "Approved",
+          "at": "2026-03-18T15:00:00Z",
+          "actor": "Grace Uwase",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24102",
+      "claimantName": "Jean Mukamana",
+      "policyNumber": "AUTO-77102",
+      "type": "auto",
+      "status": "Under Review",
+      "region": "Kigali",
+      "submittedAt": "2026-05-28T07:30:00Z",
+      "estimatedCompletion": "2026-06-10T17:00:00Z",
+      "riskScore": 19,
+      "amount": 0,
+      "aiSummary": "Side-impact collision. Multiple vehicle photos and police report uploaded.",
+      "assignedTeam": "Motor Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "j1",
+          "name": "Driver side dent.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-05-28T08:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-damage-side.jpg"
+        },
+        {
+          "id": "j2",
+          "name": "Passenger door.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-05-28T08:01:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-flood-living-room.jpg"
+        },
+        {
+          "id": "j3",
+          "name": "Police report Kigali.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-05-28T08:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "j4",
+          "name": "Intersection CCTV export.mp4",
+          "kind": "video",
+          "tag": "video-evidence",
+          "uploadedAt": "2026-05-28T09:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-clinic-tour.mp4"
+        },
+        {
+          "id": "j5",
+          "name": "Tow truck invoice.pdf",
+          "kind": "pdf",
+          "tag": "cost",
+          "uploadedAt": "2026-05-29T12:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "j-t1",
+          "label": "Claim submitted",
+          "at": "2026-05-28T07:30:00Z",
+          "actor": "Jean Mukamana",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24103",
+      "claimantName": "Aline Mukamana",
+      "policyNumber": "PRP-33100",
+      "type": "property",
+      "status": "Draft",
+      "region": "Kigali",
+      "submittedAt": "2026-06-01T14:00:00Z",
+      "estimatedCompletion": "2026-06-20T17:00:00Z",
+      "riskScore": 15,
+      "amount": 0,
+      "aiSummary": "Draft — fire damage claim. Photos uploaded; incident report pending.",
+      "assignedTeam": "Property Claims Unit",
+      "assignedOfficer": "Unassigned",
+      "documents": [
+        {
+          "id": "p1",
+          "name": "Kitchen fire aftermath.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-06-01T14:10:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-engine-fire.jpg"
+        },
+        {
+          "id": "p2",
+          "name": "Smoke damage bedroom.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-06-01T14:12:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-fire-damage.jpg"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "p-t1",
+          "label": "Draft saved",
+          "at": "2026-06-01T14:00:00Z",
+          "actor": "Aline Mukamana",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24104",
+      "claimantName": "Patrick Habimana",
+      "policyNumber": "AUTO-22001",
+      "type": "auto",
+      "status": "Rejected",
+      "region": "Southern",
+      "submittedAt": "2026-02-14T11:00:00Z",
+      "estimatedCompletion": "2026-02-28T17:00:00Z",
+      "riskScore": 62,
+      "amount": 0,
+      "aiSummary": "Rejected — policy lapsed before incident date per registry check.",
+      "assignedTeam": "Motor Claims Unit",
+      "assignedOfficer": "Jean Niyonzima",
+      "documents": [
+        {
+          "id": "r1",
+          "name": "Accident scene wide.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-02-14T11:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-damage-side.jpg"
+        },
+        {
+          "id": "r2",
+          "name": "Policy status letter.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-02-20T09:00:00Z",
+          "aiStatus": "Flagged",
+          "version": 1
+        },
+        {
+          "id": "r3",
+          "name": "Claimant explanation.docx",
+          "kind": "document",
+          "tag": "correspondence",
+          "uploadedAt": "2026-02-15T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "r-t1",
+          "label": "Claim submitted",
+          "at": "2026-02-14T11:00:00Z",
+          "actor": "Patrick Habimana",
+          "tone": "neutral"
+        },
+        {
+          "id": "r-t2",
+          "label": "Rejected — coverage gap",
+          "at": "2026-02-22T16:00:00Z",
+          "actor": "Jean Niyonzima",
+          "tone": "danger"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24105",
+      "claimantName": "Marie Uwimana",
+      "policyNumber": "HLT-44055",
+      "type": "health",
+      "status": "Under Review",
+      "region": "Eastern",
+      "submittedAt": "2026-05-15T06:45:00Z",
+      "estimatedCompletion": "2026-05-30T17:00:00Z",
+      "riskScore": 22,
+      "amount": 0,
+      "aiSummary": "Maternity package claim with ultrasound imaging and hospital discharge pack.",
+      "assignedTeam": "Health Claims Unit",
+      "assignedOfficer": "David Habineza",
+      "documents": [
+        {
+          "id": "m1",
+          "name": "Ultrasound image.jpg",
+          "kind": "image",
+          "tag": "medical",
+          "uploadedAt": "2026-05-15T07:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/health-ultrasound.jpg"
+        },
+        {
+          "id": "m2",
+          "name": "Discharge summary.pdf",
+          "kind": "pdf",
+          "tag": "medical",
+          "uploadedAt": "2026-05-15T07:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "m3",
+          "name": "Hospital itemized bill.pdf",
+          "kind": "pdf",
+          "tag": "billing",
+          "uploadedAt": "2026-05-16T08:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "m4",
+          "name": "NICU tour video.mp4",
+          "kind": "video",
+          "tag": "facility",
+          "uploadedAt": "2026-05-16T09:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-drone-site-survey.mp4"
+        },
+        {
+          "id": "m5",
+          "name": "National ID copy.jpg",
+          "kind": "image",
+          "tag": "identity",
+          "uploadedAt": "2026-05-15T06:50:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/identity-id-card.jpg"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "m-t1",
+          "label": "Submitted",
+          "at": "2026-05-15T06:45:00Z",
+          "actor": "Marie Uwimana",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24106",
+      "claimantName": "Samuel Nsengimana",
+      "policyNumber": "PRP-90221",
+      "type": "property",
+      "status": "Approved",
+      "region": "Northern",
+      "submittedAt": "2026-01-20T09:00:00Z",
+      "estimatedCompletion": "2026-02-05T17:00:00Z",
+      "riskScore": 12,
+      "amount": 0,
+      "aiSummary": "Hail damage to roof approved after site inspection photos and roofer quote.",
+      "assignedTeam": "Property Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "s1",
+          "name": "Roof hail damage 1.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-01-20T09:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-roof-leak.jpg"
+        },
+        {
+          "id": "s2",
+          "name": "Roof hail damage 2.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-01-20T09:31:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-roof-leak.jpg"
+        },
+        {
+          "id": "s3",
+          "name": "Drone roof survey.mp4",
+          "kind": "video",
+          "tag": "survey",
+          "uploadedAt": "2026-01-21T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-drone-site-survey.mp4"
+        },
+        {
+          "id": "s4",
+          "name": "Roofer quote signed.pdf",
+          "kind": "pdf",
+          "tag": "cost",
+          "uploadedAt": "2026-01-22T11:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "s-t1",
+          "label": "Submitted",
+          "at": "2026-01-20T09:00:00Z",
+          "actor": "Samuel Nsengimana",
+          "tone": "neutral"
+        },
+        {
+          "id": "s-t2",
+          "label": "Approved",
+          "at": "2026-02-01T14:00:00Z",
+          "actor": "Grace Uwase",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24107",
+      "claimantName": "Vestine Mukeshimana",
+      "policyNumber": "AUTO-11880",
+      "type": "auto",
+      "status": "Investigation",
+      "region": "Western",
+      "submittedAt": "2026-05-01T16:00:00Z",
+      "estimatedCompletion": "2026-06-15T17:00:00Z",
+      "riskScore": 81,
+      "amount": 0,
+      "aiSummary": "High-value total loss. Staged accident indicators; fraud team reviewing video timeline.",
+      "assignedTeam": "Fraud Investigation Team",
+      "assignedOfficer": "Fabrice Iradukunda",
+      "documents": [
+        {
+          "id": "v1",
+          "name": "Total loss overview.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-05-01T16:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-total-loss.jpg"
+        },
+        {
+          "id": "v2",
+          "name": "Engine bay fire.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-05-01T16:32:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-engine-fire.jpg"
+        },
+        {
+          "id": "v3",
+          "name": "Third party statement.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-05-02T08:00:00Z",
+          "aiStatus": "Flagged",
+          "version": 1
+        },
+        {
+          "id": "v4",
+          "name": "Dashcam full sequence.mp4",
+          "kind": "video",
+          "tag": "video-evidence",
+          "uploadedAt": "2026-05-01T17:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-dashcam-drive.mp4"
+        },
+        {
+          "id": "v5",
+          "name": "Garage inspection report.pdf",
+          "kind": "pdf",
+          "tag": "technical",
+          "uploadedAt": "2026-05-03T12:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "v6",
+          "name": "Fraud analyst memo.docx",
+          "kind": "document",
+          "tag": "internal",
+          "uploadedAt": "2026-05-04T09:00:00Z",
+          "aiStatus": "Flagged",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "v-t1",
+          "label": "Submitted",
+          "at": "2026-05-01T16:00:00Z",
+          "actor": "Vestine Mukeshimana",
+          "tone": "neutral"
+        },
+        {
+          "id": "v-t2",
+          "label": "Escalated to fraud",
+          "at": "2026-05-05T10:00:00Z",
+          "actor": "Fabrice Iradukunda",
+          "tone": "danger"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24108",
+      "claimantName": "Eric Ndayisenga",
+      "policyNumber": "PRP-77200",
+      "type": "property",
+      "status": "Pending",
+      "region": "Northern",
+      "submittedAt": "2026-06-02T08:00:00Z",
+      "estimatedCompletion": "2026-06-25T17:00:00Z",
+      "riskScore": 18,
+      "amount": 0,
+      "aiSummary": "Burglary claim — broken window and inventory list. Photos and police OB uploaded.",
+      "assignedTeam": "Property Claims Unit",
+      "assignedOfficer": "Daniel Mugisha",
+      "documents": [
+        {
+          "id": "e1",
+          "name": "Broken window entry.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-06-02T08:20:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-broken-window.jpg"
+        },
+        {
+          "id": "e2",
+          "name": "Stolen items inventory.xlsx",
+          "kind": "document",
+          "tag": "inventory",
+          "uploadedAt": "2026-06-02T08:40:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "e3",
+          "name": "Police OB burglary.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-06-02T09:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "e4",
+          "name": "Security camera clip.mp4",
+          "kind": "video",
+          "tag": "video-evidence",
+          "uploadedAt": "2026-06-02T09:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-drone-site-survey.mp4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "e-t1",
+          "label": "Submitted",
+          "at": "2026-06-02T08:00:00Z",
+          "actor": "Eric Ndayisenga",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24109",
+      "claimantName": "Claudine Nyiraneza",
+      "policyNumber": "HLT-66012",
+      "type": "health",
+      "status": "Under Review",
+      "region": "Western",
+      "submittedAt": "2026-05-20T12:00:00Z",
+      "estimatedCompletion": "2026-06-05T17:00:00Z",
+      "riskScore": 35,
+      "amount": 0,
+      "aiSummary": "Dental surgery claim — before/after imaging and specialist letter attached.",
+      "assignedTeam": "Health Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "c1",
+          "name": "Dental X-ray.jpg",
+          "kind": "image",
+          "tag": "medical",
+          "uploadedAt": "2026-05-20T12:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-damage-side.jpg"
+        },
+        {
+          "id": "c2",
+          "name": "Post-procedure photo.jpg",
+          "kind": "image",
+          "tag": "medical",
+          "uploadedAt": "2026-05-22T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/health-post-procedure.jpg"
+        },
+        {
+          "id": "c3",
+          "name": "Specialist referral.pdf",
+          "kind": "pdf",
+          "tag": "medical",
+          "uploadedAt": "2026-05-20T13:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "c4",
+          "name": "Clinic payment proof.pdf",
+          "kind": "pdf",
+          "tag": "billing",
+          "uploadedAt": "2026-05-21T09:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "c-t1",
+          "label": "Submitted",
+          "at": "2026-05-20T12:00:00Z",
+          "actor": "Claudine Nyiraneza",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24110",
+      "claimantName": "Aline Mukamana",
+      "policyNumber": "AUTO-99001",
+      "type": "auto",
+      "status": "Approved",
+      "region": "Kigali",
+      "submittedAt": "2025-12-10T10:00:00Z",
+      "estimatedCompletion": "2025-12-22T17:00:00Z",
+      "riskScore": 5,
+      "amount": 0,
+      "aiSummary": "Minor parking scrape — quick repair approved with photo evidence only.",
+      "assignedTeam": "Motor Claims Unit",
+      "assignedOfficer": "Grace Uwase",
+      "documents": [
+        {
+          "id": "a1",
+          "name": "Scratch close-up.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2025-12-10T10:15:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-scratch-closeup.jpg"
+        },
+        {
+          "id": "a2",
+          "name": "Parking lot context.jpg",
+          "kind": "image",
+          "tag": "scene",
+          "uploadedAt": "2025-12-10T10:16:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/auto-parking-context.jpg"
+        },
+        {
+          "id": "a3",
+          "name": "Quick repair invoice.pdf",
+          "kind": "pdf",
+          "tag": "cost",
+          "uploadedAt": "2025-12-11T08:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "a-t1",
+          "label": "Submitted",
+          "at": "2025-12-10T10:00:00Z",
+          "actor": "Aline Mukamana",
+          "tone": "neutral"
+        },
+        {
+          "id": "a-t2",
+          "label": "Approved",
+          "at": "2025-12-18T11:00:00Z",
+          "actor": "Grace Uwase",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24111",
+      "claimantName": "Jean Mukamana",
+      "policyNumber": "PRP-44500",
+      "type": "property",
+      "status": "Pending",
+      "region": "Kigali",
+      "submittedAt": "2026-06-03T07:00:00Z",
+      "estimatedCompletion": "2026-06-28T17:00:00Z",
+      "riskScore": 20,
+      "amount": 0,
+      "aiSummary": "Storm damage to perimeter wall. Engineer report and multiple site photos submitted.",
+      "assignedTeam": "Property Claims Unit",
+      "assignedOfficer": "David Habineza",
+      "documents": [
+        {
+          "id": "w1",
+          "name": "Collapsed wall section.jpg",
+          "kind": "image",
+          "tag": "damage",
+          "uploadedAt": "2026-06-03T07:30:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-storm-wall.jpg"
+        },
+        {
+          "id": "w2",
+          "name": "Storm aftermath yard.jpg",
+          "kind": "image",
+          "tag": "scene",
+          "uploadedAt": "2026-06-03T07:32:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/property-storm-yard.jpg"
+        },
+        {
+          "id": "w3",
+          "name": "Structural engineer report.pdf",
+          "kind": "pdf",
+          "tag": "technical",
+          "uploadedAt": "2026-06-03T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "w4",
+          "name": "Site survey drone.mp4",
+          "kind": "video",
+          "tag": "survey",
+          "uploadedAt": "2026-06-03T11:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-drone-site-survey.mp4"
+        },
+        {
+          "id": "w5",
+          "name": "Meteo rainfall data.pdf",
+          "kind": "pdf",
+          "tag": "official",
+          "uploadedAt": "2026-06-04T08:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "w-t1",
+          "label": "Submitted",
+          "at": "2026-06-03T07:00:00Z",
+          "actor": "Jean Mukamana",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "id": "CLM-24112",
+      "claimantName": "Ingabire Adeline",
+      "policyNumber": "HLT-33019",
+      "type": "health",
+      "status": "Investigation",
+      "region": "Kigali",
+      "submittedAt": "2026-04-28T13:00:00Z",
+      "estimatedCompletion": "2026-05-20T17:00:00Z",
+      "riskScore": 68,
+      "amount": 0,
+      "aiSummary": "Duplicate billing flags on pharmacy line items. Additional video and receipt audit requested.",
+      "assignedTeam": "Fraud Investigation Team",
+      "assignedOfficer": "Fabrice Iradukunda",
+      "documents": [
+        {
+          "id": "i1",
+          "name": "Pharmacy receipt 1.jpg",
+          "kind": "image",
+          "tag": "billing",
+          "uploadedAt": "2026-04-28T13:30:00Z",
+          "aiStatus": "Flagged",
+          "version": 1,
+          "previewUrl": "/evidence/billing-pharmacy-receipt.jpg"
+        },
+        {
+          "id": "i2",
+          "name": "Pharmacy receipt 2.jpg",
+          "kind": "image",
+          "tag": "billing",
+          "uploadedAt": "2026-04-28T13:31:00Z",
+          "aiStatus": "Flagged",
+          "version": 1,
+          "previewUrl": "/evidence/billing-pharmacy-receipt.jpg"
+        },
+        {
+          "id": "i3",
+          "name": "Prescription PDF bundle.pdf",
+          "kind": "pdf",
+          "tag": "medical",
+          "uploadedAt": "2026-04-28T14:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        },
+        {
+          "id": "i4",
+          "name": "Pharmacy counter CCTV.mp4",
+          "kind": "video",
+          "tag": "video-evidence",
+          "uploadedAt": "2026-04-29T09:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1,
+          "previewUrl": "/evidence/video-clinic-tour.mp4"
+        },
+        {
+          "id": "i5",
+          "name": "Investigator checklist.docx",
+          "kind": "document",
+          "tag": "internal",
+          "uploadedAt": "2026-05-02T10:00:00Z",
+          "aiStatus": "Valid",
+          "version": 1
+        }
+      ],
+      "timeline": [
+        {
+          "id": "i-t1",
+          "label": "Submitted",
+          "at": "2026-04-28T13:00:00Z",
+          "actor": "Ingabire Adeline",
+          "tone": "neutral"
+        },
+        {
+          "id": "i-t2",
+          "label": "Flagged for duplicate charges",
+          "at": "2026-05-01T09:00:00Z",
+          "actor": "AI Verification",
+          "tone": "warning"
+        },
+        {
+          "id": "i-t3",
+          "label": "Fraud review opened",
+          "at": "2026-05-03T11:00:00Z",
+          "actor": "Fabrice Iradukunda",
+          "tone": "danger"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Additional receipt needed",
+      "body": "Upload the garage receipt for CLM-24091.",
+      "status": "Action Needed",
+      "at": "2026-04-23T09:00:00Z"
+    },
+    {
+      "id": "n2",
+      "title": "Claim approved",
+      "body": "Health claim CLM-24088 has been approved.",
+      "status": "Unread",
+      "at": "2026-04-24T11:20:00Z"
+    },
+    {
+      "id": "n3",
+      "title": "Compliance reminder",
+      "body": "Quarterly fraud report export is due today.",
+      "status": "Read",
+      "at": "2026-04-25T07:30:00Z"
+    }
+  ]
+}
